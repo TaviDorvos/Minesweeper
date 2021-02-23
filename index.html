@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- FAVICON -->
+    <link rel="icon" href="" type="image" sizes="16x16">
+    <title>Minesweeper</title>
+</head>
+
+<body oncontextmenu="return false;">
+    <div class="container text-center">
+        <h1 class="mb-5"><b>MINESWEEPER</b></h1>
+
+        <!-- Insert your number -->
+        <div id="grid-select" class="mb-3">
+            <label>Select the grid for this game:</label>
+            <br>
+            <input type="hidden" id="grid-value" name="grid-value">
+            <button value="9">9x9</button>
+            <button value="14">14x14</button>
+            <button value="18">18x18</button>
+        </div>
+
+        <!-- Select the number of bombs -->
+        <div id="mines-select" class="mb-3">
+            <label>Select the number of mines:</label>
+            <br>
+            <input type="hidden" id="grid-value" name="grid-value">
+            <button value="10">10</button>
+            <button value="20">20</button>
+            <button value="35">35</button>
+        </div>
+
+        <!-- Start/Restart Buttons -->
+        <div class="mb-5">
+            <button id="start">Start</button>
+            <button id="restart">Restart</button>
+        </div>
+
+        <!-- This is where the gameboard is created -->
+        <table class="mx-auto" id="gameboard"></table>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
