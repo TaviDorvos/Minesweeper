@@ -3,14 +3,22 @@ body {
     background-color: silver;
 }
 
-#gameboard tr td {
+.right-clicked {
+    background-color: #1c2e59;
+}
+
+td.right-clicked:hover {
+    background-color: #c6c2ff;
+}
+
+td {
     border: 3px solid #fff;
     width: 30px;
     height: 30px;
     background-color: #737373;
 }
 
-#gameboard tr td:hover {
+td:hover {
     background-color: #fff;
 }
 
@@ -30,8 +38,4 @@ button:focus {
 .selected {
     border-style: inset;
     background-color: #737373;
-}
-
-.right-clicked {
-    background-color: #1c2e59;
 }
