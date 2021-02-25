@@ -11,6 +11,11 @@ td.right-clicked:hover {
     background-color: #c6c2ff;
 }
 
+.safe {
+    background-color: #00730b;
+    color: #fff;
+}
+
 td {
     border: 3px solid #fff;
     width: 30px;
