@@ -5,6 +5,11 @@ A player left-clicks a cell to uncover it. If a player uncovers a mined cell, th
 
 To win the game, players must uncover all non-mine cells, at which point, the timer is stopped. Flagging all the mined cells is not required.
 
+## How to use?
+1. Download or clone this repo.
+2. Open it in your browser.
+3. Enjoy :)
+
 ![start](https://user-images.githubusercontent.com/73690608/109136594-f53e5200-7760-11eb-9fac-8a8ff49bdc4c.png)
 ![middle-game](https://user-images.githubusercontent.com/73690608/109136597-f5d6e880-7760-11eb-86e9-9a5e5283cd7c.png)
 ![win](https://user-images.githubusercontent.com/73690608/109136601-f5d6e880-7760-11eb-9fdb-1c6df475b2bf.png)
